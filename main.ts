@@ -12,10 +12,15 @@
 //
 // Entry video: IShowSpeed hugs RED HULK in GTA 6 - public Short 2HRzbu_7BNk, VIDEO.json names it.
 
-import { copyFileSync, mkdirSync } from 'node:fs';
-import { join } from 'node:path';
+import { copyFileSync, existsSync, mkdirSync } from 'node:fs';
+import { dirname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
-const BOT_DIR = process.env.MAKEFUN_BOT_DIR ?? '/bot';
+// In the grader the repo is mounted at /bot and MAKEFUN_BOT_DIR names it.
+// Without it, fall back to this file's own directory so the program also
+// runs from a plain checkout (the gate's determinism check does that).
+const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
+const BOT_DIR = process.env.MAKEFUN_BOT_DIR ?? (existsSync(join('/bot', 'VIDEO.json')) ? '/bot' : SCRIPT_DIR);
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
