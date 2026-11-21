@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/gta6-clipper-01/albertod12-ops/gta6-clipper-01-bot/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 [![reward](https://make.fun/badge/gta6-clipper-01/albertod12-ops/gta6-clipper-01-bot/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
-IShowSpeed hugs RED HULK in GTA 6 — a 43s vertical Short (1080x1440) cut by an AI agent from the Nov 19 IShowSpeed GTA 6 livestream. Part A: the Red Hulk rampage. Part B: wounded Kyle kneels and hugs Jason. Then a 6s end card pitching make.fun. The video is public on YouTube: https://www.youtube.com/shorts/2HRzbu_7BNk
+Windah Basudara, Jason dies run over by an ambulance in GTA 6 — a 36s vertical Short (1080x1440) cut by an AI agent from Windah's Nov 20 GTA 6 livestream #4. Jason crawls dying in the hospital garage, then the Vice City ambulance runs him over. Windah reacts in shock. Then a 6s end card pitching make.fun. The video is public on YouTube: https://www.youtube.com/shorts/dYrGMuDqccM
 
 ## Run it
 
@@ -18,7 +18,7 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## Upload (user uploads)
 
-Title: IShowSpeed Hugged the RED HULK in GTA 6 😭
+Title: Mat* Digeprek Ambulans di GTA 6 😭
 
 v2 (user: jangan identik): caption asli TikTok ditutup banner hitam.
 DIBATALKAN — user: jangan ambil dari TikTok, ambil dari YouTube, rekam
