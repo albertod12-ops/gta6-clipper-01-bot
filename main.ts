@@ -9,6 +9,8 @@
 //
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand in for /bot and /output:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+//
+// Entry video: IShowSpeed hugs RED HULK in GTA 6 - public Short 2HRzbu_7BNk, VIDEO.json names it.
 
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
