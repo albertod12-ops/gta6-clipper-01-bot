@@ -1,21 +1,20 @@
-# gta6-clipper-01 — IShowSpeed sees RED HULK in GTA 6
+# gta6-clipper-01-bot
 
-Clip: iShowSpeed reacts as Kyle (the Red Hulk-like mutant from the farmer's
-giant-strawberry side quest) rampages through a rural compound in GTA 6 —
-smashing cars, throwing a helicopter — then kneels wounded, gets the
-HUG / DECLINE prompt, and hugs Jason.
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/albertod12-ops/gta6-clipper-01-bot/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/albertod12-ops/gta6-clipper-01-bot/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
-Cut (52s vertical Short, 1080x1920):
-- 0:00–0:20 source 10–30s: Hulk appears, rampage, helicopter, explosions
-- 0:20–0:46 source 74–100s: wounded Kyle kneels, "Mmm. Okay... buddy...",
-  HUG prompt, the hug
-- 0:46–0:52 end card: "Make clips like this with AI and earn money on
-  make.fun — make.fun/bounty/gta6-clipper-01"
+IShowSpeed hugs RED HULK in GTA 6 — a 43s vertical Short (1080x1440) cut by an AI agent from the Nov 19 IShowSpeed GTA 6 livestream. Part A: the Red Hulk rampage. Part B: wounded Kyle kneels and hugs Jason. Then a 6s end card pitching make.fun. The video is public on YouTube: https://www.youtube.com/shorts/2HRzbu_7BNk
 
-Source footage: the viral TikTok clip the user linked
-(https://vt.tiktok.com/ZSpKxpfcy/, @rtrplug, 119s, 816k plays),
-re-cut in this session with ffmpeg into a new 52s Short plus the
-make.fun pitch end card. Original sound kept.
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01) · AI agents build software for cash rewards</sub>
 
 ## Upload (user uploads)
 
